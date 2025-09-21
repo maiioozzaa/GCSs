@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GCS — Gulf for Constructing & Supplies</title>
+  <style>
+    :root{
+      --primary:#0038bc;
+      --accent:#ef8f00;
+      --bg:#eeeeee;
+      --text:#222;
+      --maxw:1100px;
+      font-family: Calibri, 'Segoe UI', Tahoma, sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);}
+    .container{max-width:var(--maxw);margin:0 auto;padding:24px}
+    header{background:white;border-bottom:4px solid var(--accent)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 24px;flex-wrap:wrap}
+    .brand{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+    .brand img{height:72px}
+    .brand .titles{line-height:1}
+    .brand .titles h1{margin:0;color:var(--primary);font-size:20px}
+    .brand .titles p{margin:0;color:#555;font-size:14px}
+    nav{width:100%;display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
+    nav a{text-decoration:none;color:var(--primary);font-weight:600}
+
+    .banner{background:#ccc;height:250px;display:flex;align-items:center;justify-content:center;margin:20px 0;border-radius:12px;color:#444;font-size:20px;font-weight:bold}
+
+    .hero{background:white;margin:20px 0;padding:28px;border-radius:12px}
+    .hero h2{margin:0 0 8px 0;color:var(--primary);font-size:30px}
+    .hero p{margin:0 0 12px 0;color:#333}
+    .cta{display:inline-block;padding:10px 18px;background:var(--accent);color:white;border-radius:8px;text-decoration:none;font-weight:700}
+
+    section.card{background:white;padding:18px;border-radius:10px;margin-bottom:18px}
+    .services ul{padding-right:18px}
+    .timeline{direction:ltr}
+
+    footer{margin-top:24px;padding:18px 0;text-align:center;color:#666}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <img src="images/logo.png" alt="GCS logo">
+        <div class="titles">
+          <h1>GCS — Gulf for Constructing & Supplies</h1>
+          <p>جولف للمقاولات والتوريدات</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#about">من نحن</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#projects">مشاريع</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+  <div class="banner">
+    <img src="images/banner.jpg" alt="Banner" style="width:100%; height:auto;">
+  </div>
+    <section id="home" class="hero">
+      <h2>شريكك في المقاولات والتوريدات منذ 1992</h2>
+      <p>تأسست شركة GCS عام 1992 وتقدم خدمات متكاملة في المقاولات العامة وتوريد المواد الإنشائية مع حضور قوي في القاهرة وسيناء.</p>
+      <a class="cta" href="#contact">اطلب عرض سعر</a>
+    </section>
+
+    <section id="about" class="card">
+      <h3 style="color:var(--primary)">نبذة عنا</h3>
+      <p>تأسست شركة GCS — Gulf for Constructing & Supplies عام 1992، ونمت لتصبح شركة متكاملة تقدم خدمات المقاولات العامة وتوريد المواد الإنشائية عبر عدة محافظات ومناطق رئيسية في مصر...</p>
+
+      <h4>رؤيتنا</h4>
+      <p>أن نكون الشريك الإقليمي المفضل للمشروعات السكنية والتجارية والسياحية في القاهرة، شرق الدلتا، وجنوب سيناء.</p>
+
+      <h4>رسالتنا</h4>
+      <p>تقديم خدمات مقاولات وتوريدات متميزة تُسلم المشاريع في الوقت المتفق عليه وبجودة تدوم.</p>
+    </section>
+
+    <section id="services" class="card services">
+      <h3 style="color:var(--accent)">خدماتنا</h3>
+      <ul>
+        <li>المقاولات العامة وإدارة المشاريع</li>
+        <li>توريد المواد الإنشائية: حديد، أسمنت، رمل، بلاط، سيراميك، أدوات صحية</li>
+        <li>أعمال التشطيب: رخام، باركيه، واجهات، دهانات</li>
+        <li>توريد وتركيب وحدات حمامات ومطابخ</li>
+        <li>خدمات صيانة دورية وترميم</li>
+      </ul>
+
+      <h4>لماذا تختار GCS؟</h4>
+      <ul>
+        <li>خبرة منذ 1992</li>
+        <li>شبكة موردين موثوقة</li>
+        <li>فريق هندسي وفني مختص</li>
+        <li>التزام صارم بالمواصفات والمواعيد</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h3 style="color:var(--primary)">تاريخ الشركة — إنجازات مختصرة</h3>
+      <ol class="timeline">
+        <li><strong>1992</strong> — التأسيس وبدء النشاط</li>
+        <li><strong>2000s</strong> — توسيع أنشطة المقاولات</li>
+        <li><strong>2010s</strong> — دخول سوق المشروعات السياحية</li>
+      </ol>
+    </section>
+
+    <section id="contact" class="card">
+      <h3 style="color:var(--accent)">تواصل معنا</h3>
+      <p>أضف بيانات الاتصال الفعلية (هاتف، بريد إلكتروني، عنوان) ليتم عرضها هنا.</p>
+      <form onsubmit="alert('تم إرسال الرسالة (نموذج تجريبي)');return false;">
+        <div style="margin-bottom:8px">
+          <label>الاسم</label><br>
+          <input dir="rtl" required style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px">
+        </div>
+        <div style="margin-bottom:8px">
+          <label>البريد الإلكتروني</label><br>
+          <input type="email" required style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px">
+        </div>
+        <div style="margin-bottom:8px">
+          <label>الرسالة</label><br>
+          <textarea required style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px" rows="4"></textarea>
+        </div>
+        <button type="submit" style="padding:10px 14px;background:var(--primary);color:white;border:none;border-radius:8px;font-weight:700">أرسل</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> GCS — Gulf for Constructing & Supplies. كل الحقوق محفوظة.</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
